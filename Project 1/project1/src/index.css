@@ -1,0 +1,158 @@
+:root {
+  --bckgrnd: #8B0000;
+  --cardcolor: #e6e6e6e6;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+  background:  var(--bckgrnd);
+  color: white;
+}
+
+
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+td {
+  padding: 0px;
+  width: 100%; 
+  vertical-align: top;
+  color: black;
+  /* background-color: var( --cardcolor); */
+}
+
+.time {
+  height: 40px;
+}
+
+.white {
+  background: var(--cardcolor);
+}
+
+.pink {
+  background: lightpink;
+}
+
+.blue {
+  background: rgb(190, 219, 229);
+}
+
+.green {
+  background: rgb(202, 245, 222);
+}
+
+.yellow {
+  background: yellow; 
+}
+
+.orange {
+  background: orange; 
+}
+
+.purple {
+  background: purple;
+}
+
+.brown {
+  background: beige
+}
+
+.red {
+  background: red;
+}
+
+/*Button CSS*/
+.menu-button {
+  background-color: #ff0000; /* Red background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 2px; /* Adjust as necessary to match your image */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1); /* Add a subtle shadow if present in your image */
+  outline: none; /* Removes the outline to match the style in your image */
+}
+
+.menu-button:hover {
+  background-color: #e60000; /* A slightly darker red for the hover state */
+}
+
+/*Table Styling*/
+.event-container {
+  width: 220px;
+  margin: 0px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 0px;
+}
+
+.event-details {
+  padding: 10px;
+  text-align: center;
+}
+.event-details h5 {
+  font-size: 1.5em; /* Adjusts the size of event titles */
+}
+
+.menu-button {
+background-color: var(--bckgrnd);  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+  color: var(--bckgrnd);
+  background: white;
+}
+
+td {
+  vertical-align: top;
+  width: 200px;
+} 
+
+table {
+  border-collapse: separate;
+  border-spacing: 15px; /* Adjust this value to increase or decrease the space between elements */
+}
+
+  .event-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+} 
+
+.event-details h6 {
+  font-size: 0.1em; 
+}
+
+.event-details h6 {
+  font-size: 0.8em; 
+}
+
+.event-details h5,
+.event-details h6,
+.event-details p {
+  margin-top: 0em; /* Reduces space above the h5 and h6 */
+  margin-bottom: 0.4em; /* Reduces space below the h5 and h6 */
+}
