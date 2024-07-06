@@ -1,0 +1,17 @@
+.ReadPosts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBar {
+    margin-bottom: 20px;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
